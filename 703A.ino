@@ -9,7 +9,7 @@ void setup() {
 
   Serial2.write("O");/// turning the sensor on
 
-  digitalWrite(32, HIGH);/// setting single reading mode
+  digitalWrite(32, HIGH);/// setting the sensor to single reading mode(connected pin32 to nCTRL
 }
 
 void loop() {
